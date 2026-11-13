@@ -1,0 +1,36 @@
+# --- Terraform ---
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# NOTE: .terraform.lock.hcl is intentionally NOT ignored. Commit it.
+
+# --- Hugo ---
+site/public/
+site/resources/_gen/
+site/.hugo_build.lock
+
+# --- Secrets and credentials ---
+.env
+.env.*
+*.pem
+*.key
+.aws/
+credentials
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
