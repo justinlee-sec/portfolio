@@ -3,7 +3,7 @@
 A personal website that doubles as proof of skills. It is hosted on AWS,
 provisioned entirely with Terraform, and deployed through GitHub Actions.
 
-**Live site:**
+**Live site:** [Portfolio](https://justinleenelson.tech)
 
 > Status: 🚧 Under construction. 
 
@@ -14,6 +14,7 @@ provisioned entirely with Terraform, and deployed through GitHub Actions.
 - Deploy automatically with a secure CI/CD pipeline (OIDC, no stored keys)
 - Show live GitHub activity and TryHackMe progress on the front page
 - Showcase projects grouped by type (Python, IaC, CI/CD, security)
+- Showcase badges earned through various platforms (TryHackMe, Credly, AWS, Azure)
 
 ## Planned architecture
 
@@ -29,8 +30,8 @@ provisioned entirely with Terraform, and deployed through GitHub Actions.
 
 ## Roadmap
 
-- [ ] Phase 0: Repo foundation
-- [ ] Phase 1: Infrastructure skeleton
+- [x] Phase 0: Repo foundation
+- [x] Phase 1: Infrastructure skeleton
 - [ ] Phase 2: CI/CD
 - [ ] Phase 3: Site
 - [ ] Phase 4: Trackers
