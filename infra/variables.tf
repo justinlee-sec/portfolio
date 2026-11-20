@@ -9,3 +9,9 @@ variable "domain_name" {
   description = "Apex domain for the site"
   default     = "justinleenelson.tech"
 }
+
+variable "github_repo" {
+  type        = string
+  description = "GitHub repository allowed to assume the CI roles, as owner/name"
+  default     = "justinlee-sec/portfolio"
+}
