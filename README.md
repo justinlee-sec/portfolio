@@ -1,3 +1,5 @@
+![Terraform validate](https://github.com/justinlee-sec/portfolio/actions/workflows/terraform-validate.yml/badge.svg)
+
 # Portfolio: Cloud and DevOps
 
 A personal website that doubles as proof of skills. It is hosted on AWS,
