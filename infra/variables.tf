@@ -15,3 +15,9 @@ variable "github_repo" {
   description = "GitHub repository allowed to assume the CI roles, as owner/name"
   default     = "justinlee-sec/portfolio"
 }
+
+variable "github_subject_repo" {
+  type        = string
+  description = "Repository as it appears in the GitHub OIDC subject claim"
+  default     = "justinlee-sec@342408980/portfolio@1456397215"
+}
